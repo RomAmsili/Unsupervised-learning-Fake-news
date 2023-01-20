@@ -28,7 +28,7 @@ The dataset used in this notebook is a collection of news articles scraped from 
 
 ## Results
 
-The model was able to achieve high accuracy in detecting the fake news. The best model was the K-means clustering algorithm with an accuracy of 97%
+The model was able to achieve high accuracy in detecting the fake news. The best model was the K-means clustering algorithm with an accuracy of 87%
 
 ## Conclusion
 
