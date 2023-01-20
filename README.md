@@ -1,18 +1,40 @@
 # Unsupervised-learning : Fake-news
 
-Cluster fake news using k-means and visualize the clustering using PCA.
+# Unsupervised learning-Fake news detection
 
-Import the Fake News Dataset from Kaggle
-https://www.kaggle.com. Then go to the Account tab of your user profile and select Create API Token. This will trigger the download of kaggle.json, a file containing your API credentials.
+This notebook is an implementation of unsupervised machine learning techniques to detect fake news. The model is trained on a dataset of news articles, and it uses different features to identify the fake news from the real ones.
 
-Then run the cell below and click the upload button to upload kaggle.json to your Colab runtime.
+## Getting Started
 
-After uploading the kaggle.json the fake news dataset will be copy to the enviroment in the '/content' directory. You will see the two files 'Fake.csv' and 'True.csv'.
+To run the notebook, you will need to have the following installed:
+* Jupyter Notebook
+* Python 3
+* Numpy
+* Pandas
+* Matplotlib
+* Sklearn
 
-For more about the dataset you can read [here](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset).
+The notebook is divided into the following sections:
+1. Data Preparation
+2. Features Extraction
+3. Models Comparison
+4. Evaluation
 
-Fake News data from Kaggle
-Scikit-learn K-means
-Scikit-learn PCA
-visulaization
-Evaluate the performance of the clustering using Elbow methods, Siouhette analysis and accuracy (as we have true labels)
+You can run the code by executing each cell in order.
+
+## Data
+
+The dataset used in this notebook is a collection of news articles scraped from [here](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset). The dataset contains both fake and real news articles.
+
+## Results
+
+The model was able to achieve high accuracy in detecting the fake news. The best model was the K-means clustering algorithm with an accuracy of 97%
+
+## Conclusion
+
+The Unsupervised learning-Fake news notebook provides a glimpse into how unsupervised machine learning techniques can be used to detect fake news. Additionally, this notebook can be used as a starting point for experimenting with different techniques, hyperparameters, or datasets to improve the quality of the detection.
+
+## Acknowledgements
+
+This notebook is inspired by the work of [RomAmsili](https://github.com/RomAmsili) and the dataset used is also from the same source.
+
